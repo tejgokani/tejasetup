@@ -1,0 +1,7 @@
+node_modules/
+# Local sample / scratch projects
+exacmadlm/
+.DS_Store
+*.log
+.env
+.env.*

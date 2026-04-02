@@ -1,0 +1,50 @@
+{
+  "name": "tejasetup",
+  "version": "1.0.0",
+  "description": "Interactive project system generator CLI",
+  "type": "module",
+  "author": "Tej Gokani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejgokani/tejasetup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tejgokani/tejasetup/issues"
+  },
+  "homepage": "https://github.com/tejgokani/tejasetup#readme",
+  "bin": {
+    "tejasetup": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "assets",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "lint": "echo \"No linter configured\"",
+    "prepublishOnly": "node bin/index.js --help"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "generator",
+    "interactive"
+  ],
+  "dependencies": {
+    "@inquirer/prompts": "^7.10.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "fs-extra": "^11.3.0",
+    "gradient-string": "^3.0.0",
+    "listr2": "^8.2.5",
+    "ora": "^8.2.0"
+  }
+}
