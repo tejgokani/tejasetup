@@ -1,3 +1,5 @@
+// @version 1.0.0
+// @since 2026-05-24
 /**
  * Map low-level fs errors to short, actionable CLI copy.
  * @param {unknown} err
