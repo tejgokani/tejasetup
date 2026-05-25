@@ -1,3 +1,5 @@
+// @version 1.0.0
+// @since 2026-05-25
 import { registerFeature } from '../../core/featureRegistry.js';
 import {
   applyAuth,
