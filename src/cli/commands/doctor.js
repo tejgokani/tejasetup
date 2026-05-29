@@ -1,4 +1,6 @@
 // @version 1.0.0
+// @since 2026-05-29
+// @version 1.0.0
 // @since 2026-05-26
 import { execSync } from 'node:child_process';
 import fs from 'fs-extra';
