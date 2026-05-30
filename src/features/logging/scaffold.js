@@ -27,6 +27,7 @@ export function loggingServerDependencies(config) {
   return {};
 }
 
+/** Handles the primary initialization logic. */
 export function serverLoggerModule() {
   return `import fs from 'fs-extra';
 import path from 'node:path';
