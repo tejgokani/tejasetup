@@ -33,6 +33,7 @@ import {
   normalizeFeatures,
 } from '../config/userConfig.js';
 
+/** Manages connection lifecycle and cleanup. */
 function cancelError() {
   const err = new Error('Setup cancelled.');
   err.name = 'UserCancelledError';
